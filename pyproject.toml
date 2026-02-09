@@ -1,0 +1,17 @@
+# pyproject.toml
+[project]
+name = "ComfyUI-ComfyUI-Flash-Attention_v100" # Unique identifier for your node. Immutable after creation.
+description = "A ComfyUI custom node enabling **Flash Attention 1** on legacy NVIDIA GPUs (Tesla V100, T4) that lack Compute Capability 8.0+ required by FlashAttention-2."
+version = "1.0.0" # Custom Node version. Must be semantically versioned.
+license = { file = "LICENSE.txt" }
+dependencies  = [] # Filled in from requirements.txt
+
+[project.urls]
+Repository = "https://github.com/FearL0rd/ComfyUI-ComfyUI-Flash-Attention_v100"
+
+[tool.comfy]
+PublisherId = "fearl0rd" # TODO (fill in Publisher ID from Comfy Registry Website).
+DisplayName = "ComfyUI-ComfyUI-Flash-Attention_v100" # Display name for the Custom Node. Can be changed later.
+
+Icon = "https://raw.githubusercontent.com/FearL0rd/ComfyUI-ComfyUI-Flash-Attention_v100/refs/heads/main/icon.png" # SVG, PNG, JPG or GIF (MAX. 800x400px)
+
